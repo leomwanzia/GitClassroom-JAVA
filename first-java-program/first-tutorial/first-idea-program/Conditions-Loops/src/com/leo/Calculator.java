@@ -11,7 +11,7 @@ public class Calculator {
         while (true) {
             // take the operator as input
             System.out.print("Enter the operator : ");
-            char op = in.next().trim().charAt(0);
+            char op = in.next().trim().charAt(0); // Reads the first character of the input and stores it in 'op'
             if (op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
                 // input 2 numbers
 
